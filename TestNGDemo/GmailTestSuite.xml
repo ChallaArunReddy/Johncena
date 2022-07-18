@@ -1,0 +1,17 @@
+<suite name="Gmail Test Suite">
+
+   <test name="Send mail Testcase">  
+   		<classes>
+   			<class name="Testcases.SendmailTest"></class>
+   		</classes>
+    </test>
+
+	<test name="Receive mail Testcase">
+		<classes>
+			<class name="Testcases.ReceivemailTest"></class>
+		</classes>
+	</test>
+
+
+
+</suite>

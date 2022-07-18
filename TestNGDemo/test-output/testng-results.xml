@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail Test Suite" duration-ms="355" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+    <groups>
+    </groups>
+    <test name="Send mail Testcase" duration-ms="172" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+      <class name="Testcases.SendmailTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:Testcases.SendmailTest@28feb3fa]" name="login" is-config="true" duration-ms="2" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendmail()[pri:0, instance:Testcases.SendmailTest@28feb3fa]" name="sendmail" duration-ms="23" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendmail -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Testcases.SendmailTest@28feb3fa]" name="logout" is-config="true" duration-ms="6" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- Testcases.SendmailTest -->
+    </test> <!-- Send mail Testcase -->
+    <test name="Receive mail Testcase" duration-ms="18" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+      <class name="Testcases.ReceivemailTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:Testcases.ReceivemailTest@ae45eb6]" name="launchApp" is-config="true" duration-ms="55" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:Testcases.ReceivemailTest@ae45eb6]" name="login" is-config="true" duration-ms="2" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="sendmail()[pri:0, instance:Testcases.ReceivemailTest@ae45eb6]" name="sendmail" duration-ms="6" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendmail -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:Testcases.ReceivemailTest@ae45eb6]" name="logout" is-config="true" duration-ms="2" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:Testcases.ReceivemailTest@ae45eb6]" name="closeApp" is-config="true" duration-ms="0" started-at="2022-07-06T04:58:41Z" finished-at="2022-07-06T04:58:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- Testcases.ReceivemailTest -->
+    </test> <!-- Receive mail Testcase -->
+  </suite> <!-- Gmail Test Suite -->
+</testng-results>
